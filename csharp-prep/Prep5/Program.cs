@@ -8,7 +8,7 @@ class Program
         
         Console.Write("Welcome to the program!");
         Console.Write("Please enter your name: ");
-        string name = Console.Read("")
+        string name = Console.Read("");
 
         Console.Write("Please enter your favourite number");
         string number = Console.Read();
