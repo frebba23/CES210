@@ -9,8 +9,7 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("Select one of the following options ");
-            Console.Write("1. Write\n1. 2. Display\n2. 3. Load\n3. 4. Save\n4. 5. Quit\n5. ");
+            Console.WriteLine("Select one of the following options\n. 1. Write\n1. 2. Display\n2. 3. Load\n3. 4. Save\n4. 5. Quit\n5. ");
 
             int options = int.Parse(Console.ReadLine());
             Prompt Generator proGen = new PromptGenerator();

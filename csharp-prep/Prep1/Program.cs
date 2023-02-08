@@ -4,11 +4,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep1 World!");
-        Console.WriteLine("What is your first name? ");
-        string name = Console.ReadLine();
-        Console.WriteLine("What is your last name? ");
-        string surname = Console.ReadLine();
-        Console.WriteLine($"My name is {surname}, {name} {surname}");
+      Console.WriteLine("How many students came to school? ");
+      int t = int.Parse(Console.ReadLine());
+      string[] students = new string(t);
+      
+      for(int i = 0; i < t; i++)
+      {
+        Console.WriteLine("Name of the students? ");
+        students[i] = Console.ReadLine();
+      }
+       Console.WriteLine("Attended School Today ");
+       for(int i = 0; i < t; i++)
+       {
+        Console.WriteLine(students[i]);
+       }
     }
+    
 }
