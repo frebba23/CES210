@@ -19,5 +19,4 @@ class Program
         Console.WriteLine(students[i]);
        }
     }
-    
 }
